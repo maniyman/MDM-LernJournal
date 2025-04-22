@@ -37,7 +37,7 @@ Die Analyse erfolgt serverseitig in Python mit Hilfe von Flask und Pillow.
 
 Die Anwendung wurde lokal mit Flask gestartet und lief erfolgreich unter `http://127.0.0.1:8000`. Über die Konsole konnte überprüft werden, dass die Endpunkte korrekt arbeiten und keine Fehler auftreten.
 
-![Lokale Ausführung im Terminal](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/App3.jpg)
+![Lokale Ausführung im Terminal]([https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/App3.jpg](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/App3.jpg?token=GHSAT0AAAAAAC7YZI5ZOXZ7QFGQPB72OTVM2AHXLPA))
 > 📸 *Die Abbildung zeigt die lokale Ausführung der Flask-App im Terminal. Die Konsole bestätigt, dass der Server unter `http://127.0.0.1:8000` erreichbar ist – ein Zeichen dafür, dass die Entwicklungsumgebung korrekt eingerichtet wurde.*
 
 ---
