@@ -14,7 +14,7 @@ Das Projekt wurde in einer sauberen Verzeichnisstruktur aufgebaut, die sowohl Ba
 ![Projektstruktur im Explorer](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/RepoLib1.jpg?token=GHSAT0AAAAAAC7YZI5Y5LZWPR5TJZVFJRLK2AHXGYA)
 > 📁 *Die Abbildung zeigt die strukturierte Ordneransicht im Projektverzeichnis. Zu sehen sind u. a. die `app.py`, der `web/`-Ordner mit HTML und JavaScript sowie die `requirements`-Dateien zur Abhängigkeitsverwaltung.*
 
-![Erstellung der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/RepoLib2.jpg)
+![Erstellung der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/refs/heads/main/lernjournal1-python/images/RepoLib2.jpg?token=GHSAT0AAAAAAC7YZI5YLZAGNSEGQWWQ27RG2AHXHJQ)
 > ⚙️ *Hier ist der Terminal-Befehl zur Erstellung der `requirements.txt` zu sehen – ein essenzieller Schritt für Deployment und Reproduzierbarkeit auf anderen Systemen.*
 
 ## App, Funktionalität
