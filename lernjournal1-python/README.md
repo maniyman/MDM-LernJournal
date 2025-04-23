@@ -12,7 +12,7 @@
 
 Das Projekt wurde in einer sauberen Verzeichnisstruktur aufgebaut, die sowohl Backend (Flask-App), Frontend (HTML, JS) als auch die Konfigurationsdateien umfasst. Die Library-Verwaltung erfolgt über `requirements.txt`, welche mit `pip freeze` erzeugt wurde.
 
-![Projektstruktur im Explorer](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/RepoLib1.jpg)
+![Projektstruktur im Explorer](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/RepoLib1.jpg?raw=true)
 > 📁 *Die Abbildung zeigt die strukturierte Ordneransicht im Projektverzeichnis. Zu sehen sind u. a. die `app.py`, der `web/`-Ordner mit HTML und JavaScript sowie die `requirements`-Dateien zur Abhängigkeitsverwaltung.*
 
 ![Erstellung der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/RepoLib2.jpg)
