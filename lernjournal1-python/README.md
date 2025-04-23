@@ -15,7 +15,7 @@ Das Projekt wurde in einer sauberen Verzeichnisstruktur aufgebaut, die sowohl Ba
 ![Projektstruktur im Explorer](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/RepoLib1.jpg?raw=true)
 > 📁 *Die Abbildung zeigt die strukturierte Ordneransicht im Projektverzeichnis. Zu sehen sind u. a. die `app.py`, der `web/`-Ordner mit HTML und JavaScript sowie die `requirements`-Dateien zur Abhängigkeitsverwaltung.*
 
-![Erstellung der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/RepoLib2.jpg)
+![Erstellung der requirements.txt](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/RepoLib2.jpg?raw=true)
 > ⚙️ *Hier ist der Terminal-Befehl zur Erstellung der `requirements.txt` zu sehen – ein essenzieller Schritt für Deployment und Reproduzierbarkeit auf anderen Systemen.*
 
 ---
@@ -29,7 +29,7 @@ Das Projekt wurde in einer sauberen Verzeichnisstruktur aufgebaut, die sowohl Ba
 
 Die folgende Abbildung zeigt die lokale Version der Bildanalyse-Web-App im Browser unter `http://127.0.0.1:8000`.
 
-![Bildanalyse lokale App](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/App1.jpg)
+![Bildanalyse lokale App](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/App1.jpg?raw=true)
 > 🖼️ *Der Benutzer kann ein Bild auswählen und per Klick auf „Bild analysieren“ eine Analyse starten. Die Analyse erfolgt serverseitig in Python mit Hilfe von Flask und Pillow.*
 
 ---
@@ -38,7 +38,7 @@ Die folgende Abbildung zeigt die lokale Version der Bildanalyse-Web-App im Brows
 
 Die Anwendung wurde lokal mit Flask gestartet und lief erfolgreich unter `http://127.0.0.1:8000`. Über die Konsole konnte überprüft werden, dass die Endpunkte korrekt arbeiten und keine Fehler auftreten.
 
-![Lokale Ausführung im Terminal](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/App3.jpg)
+![Lokale Ausführung im Terminal](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/App3.jpg?raw=true)
 > 📸 *Die Abbildung zeigt die lokale Ausführung der Flask-App im Terminal. Die Konsole bestätigt, dass der Server unter `http://127.0.0.1:8000` erreichbar ist – ein Zeichen dafür, dass die Entwicklungsumgebung korrekt eingerichtet wurde.*
 
 ---
@@ -47,7 +47,7 @@ Die Anwendung wurde lokal mit Flask gestartet und lief erfolgreich unter `http:/
 
 Nach dem lokalen Test wurde die Anwendung erfolgreich über Local Git auf Azure App Service deployed. Dabei wurden einige Anpassungen vorgenommen (z. B. Port, Startkommando), um sicherzustellen, dass Flask korrekt startet.
 
-![Web-App live auf Azure](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/App2.jpg)
+![Web-App live auf Azure](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/App2.jpg?raw=true)
 > 🌐 *Der Screenshot zeigt die Weboberfläche der Bildverarbeitungs-App, wie sie online über Azure erreichbar ist. Dies beweist, dass sowohl Frontend als auch Backend wie gewünscht auf der Cloud-Plattform funktionieren.*
 
 ---
@@ -61,10 +61,10 @@ Nach dem lokalen Test wurde die Anwendung erfolgreich über Local Git auf Azure 
 
 Für die Verwaltung der Python-Abhängigkeiten wurde eine virtuelle Umgebung eingerichtet. Mit dem Befehl `pip freeze > requirements.txt` wurden alle aktuell installierten Pakete automatisch in eine Textdatei geschrieben. Diese Datei dient als Basis für die Reproduzierbarkeit und das Deployment, z. B. auf Azure.
 
-![pip freeze zur Erstellung der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/DepenMgt1.jpg)
+![pip freeze zur Erstellung der requirements.txt](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/DepenMgt1.jpg?raw=true)
 > 🛠️ *Der Screenshot zeigt die Konsole beim Ausführen des Befehls `pip freeze > requirements.txt`. Damit wird eine Liste aller aktuell in der virtuellen Umgebung installierten Pakete generiert.*
 
-![Inhalt der requirements.txt](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/DepenMgt2.jpg)
+![Inhalt der requirements.txt](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/DepenMgt2.jpg?raw=true)
 > 📄 *Hier ist der Inhalt der automatisch erzeugten `requirements.txt` zu sehen. Sie enthält alle benötigten Libraries wie `flask` und `pillow`, die später auch beim Deployment auf Azure installiert werden.*
 
 ---
@@ -77,16 +77,16 @@ Für die Verwaltung der Python-Abhängigkeiten wurde eine virtuelle Umgebung ein
 * Logs über Kudu + Live-Log-Streaming geprüft
 * Probleme mit `master/main` + Port wurden erfolgreich gelöst
 
-![Azure Overview](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/Deployment1.jpg)
+![Azure Overview](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/Deployment1.jpg?raw=true)
 > 📊 *Die Azure-Übersichtsseite zeigt grundlegende Informationen zur App wie Status, Ressourcengruppe und Standort. Dies bestätigt, dass die Ressource korrekt erstellt und aktiv ist.*
 
-![Deployment Center – Git URL](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/Deployment2.jpg)
+![Deployment Center – Git URL](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/Deployment2.jpg?raw=true)
 > 🔗 *Im Deployment Center ist die Git-URL sichtbar, über die der Code direkt aus dem lokalen Repository zu Azure gepusht wurde. Dies war entscheidend für das automatische Deployment.*
 
-![Log Stream – Live Logs](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/Deployment3.jpg)
+![Log Stream – Live Logs](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/Deployment3.jpg?raw=true)
 > 🧾 *Der Log Stream in Azure zeigt Live-Ausgaben der laufenden App. Dieses Tool war hilfreich beim Debuggen – zum Beispiel bei Portfehlern oder Startproblemen.*
 
-![Live-WebApp in Azure](https://raw.githubusercontent.com/maniyman/MDM-LernJournal/main/lernjournal1-python/images/Deployment4.jpg)
+![Live-WebApp in Azure](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal1-python/images/Deployment4.jpg?raw=true)
 > 🌐 *Abbildung der live laufenden Web-App im Azure-Browserfenster. Dies bestätigt, dass sowohl das Deployment als auch der Zugriff über das Internet erfolgreich funktionieren.*
 
 ---
