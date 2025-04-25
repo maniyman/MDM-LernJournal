@@ -66,6 +66,8 @@ docker-compose up -d
 📍 Zugriff: [http://localhost:8083](http://localhost:8083)  
 📂 Datenbank-Zugang: `drupal / drupal / mariadb`
 
+![Laufende Container (Drupal + MariaDB) via Docker Compose im Terminal](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Docker-Compose%20Deployment.jpg?raw=true)
+
 ---
 
 ## 🤖 ML-App Deployment – ONNX Image Classification
