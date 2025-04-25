@@ -68,6 +68,8 @@ docker-compose up -d
 
 ![Laufende Container (Drupal + MariaDB) via Docker Compose im Terminal](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Docker-Compose%20Deployment.jpg?raw=true)
 
+![Drupal-Webseite nach erfolgreichem Setup auf localhost:8083](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Docker-Compose%20Deployment2.jpg?raw=true)
+
 ---
 
 ## 🤖 ML-App Deployment – ONNX Image Classification
@@ -100,6 +102,8 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 
 📍 Zugriff: [http://localhost:9000](http://localhost:9000)
 
+![ONNX-Image-Classifier lokal im Browser unter localhost:9000 geöffnet](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20lokales%20Deployment2.jpg?raw=true)
+
 ---
 
 ### ☁️ Deployment in die Cloud
@@ -111,6 +115,10 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 - **Plan:** Free Tier (F1)
 - **URL:** `https://onnx-img-<dein-name>.azurewebsites.net`
 
+![Azure Web App mit Container-Einstellungen im Azure Portal](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20Azure%20Web%20App.jpg?raw=true)
+
+![Web App erfolgreich geöffnet im Browser](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20Azure%20Web%20App2.jpg?raw=true)
+
 #### ✅ Azure Container Apps (ACA)
 
 - **Ressourcengruppe:** `mdm-aca`
@@ -120,6 +128,10 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 - **URL:**  
   `https://onnx-aca-final.westeurope.azurecontainerapps.io`
 
+![ACA Übersicht mit aktivierter Ingress-Option und laufender App](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20ACA.jpg?raw=true)
+
+![ACA App im Browser erfolgreich geöffnet](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20ACA2.jpg?raw=true)
+
 #### ✅ Azure Container Instances (ACI)
 
 - **Ressourcengruppe:** `mdm-aci`
@@ -127,6 +139,10 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 - **Protokoll/Port:** TCP / 5000
 - **URL:**  
   `http://onnx144.e6czc3a5fnb7aef0.southindia.azurecontainer.io:5000`
+
+  ![Azure Container Instance – Übersicht der laufenden Instanz](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20ACI.jpg?raw=true)
+
+![ACI-App erfolgreich im Browser aufgerufen](https://github.com/maniyman/MDM-LernJournal/blob/main/lernjournal2-container/images/Dokumentation%20Deployment%20ACI2.jpg?raw=true)
 
 ---
 
