@@ -137,5 +137,4 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 
 ---
 
-📸 **Nächster Schritt:** Screenshots zur Checkliste hinzufügen?  
-Lass mich wissen, falls du Hilfe brauchst!
+
