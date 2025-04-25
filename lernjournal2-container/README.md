@@ -56,28 +56,35 @@ services:
 volumes:
   drupal-data:
   mariadb-data:
+```
+
 Start der Applikation:
-
-bash
-Copy
-Edit
+```bash
 docker-compose up -d
-📍 Zugriff: http://localhost:8083
-📂 Datenbank-Zugang: drupal / drupal / mariadb
+```
 
-🤖 ML-App Deployment – ONNX Image Classification
-🧠 Projektwahl
+📍 Zugriff: [http://localhost:8083](http://localhost:8083)  
+📂 Datenbank-Zugang: `drupal / drupal / mariadb`
 
-Option	Gewählt
-ONNX Sentiment Analysis	❌
-ONNX Image Classification	✅
-🔗 GitHub Repo: mosazhaw/onnx-image-classification
-🔗 Docker Hub: maniyman/onnx-image-classification
+---
 
-🖥️ Lokales Deployment
-bash
-Copy
-Edit
+## 🤖 ML-App Deployment – ONNX Image Classification
+
+### 🧠 Projektwahl
+
+| Option | Gewählt |
+|--------|---------|
+| ONNX Sentiment Analysis | ❌ |
+| ONNX Image Classification | ✅ |
+
+🔗 GitHub Repo: [mosazhaw/onnx-image-classification](https://github.com/mosazhaw/onnx-image-classification)  
+🔗 Docker Hub: [maniyman/onnx-image-classification](https://hub.docker.com/r/maniyman/onnx-image-classification)
+
+---
+
+### 🖥️ Lokales Deployment
+
+```bash
 # Schritt 1: Repo klonen
 git clone https://github.com/mosazhaw/onnx-image-classification
 cd onnx-image-classification
@@ -87,45 +94,48 @@ docker build -t onnx-image-classification .
 
 # Schritt 3: Container starten
 docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classification
-📍 Zugriff: http://localhost:9000
+```
 
-☁️ Deployment in die Cloud
-✅ Azure Web App
-Ressourcengruppe: mdm-appservice
+📍 Zugriff: [http://localhost:9000](http://localhost:9000)
 
-Container: maniyman/onnx-image-classification:latest
+---
 
-Plan: Free Tier (F1)
+### ☁️ Deployment in die Cloud
 
-URL: https://onnx-img-<dein-name>.azurewebsites.net
+#### ✅ Azure Web App
 
-✅ Azure Container Apps (ACA)
-Ressourcengruppe: mdm-aca
+- **Ressourcengruppe:** `mdm-appservice`
+- **Container:** `maniyman/onnx-image-classification:latest`
+- **Plan:** Free Tier (F1)
+- **URL:** `https://onnx-img-<dein-name>.azurewebsites.net`
 
-Container App: onnx-aca-final
+#### ✅ Azure Container Apps (ACA)
 
-Umgebung: onnx-env
+- **Ressourcengruppe:** `mdm-aca`
+- **Container App:** `onnx-aca-final`
+- **Umgebung:** `onnx-env`
+- **Ingress:** Öffentlich
+- **URL:**  
+  `https://onnx-aca-final.westeurope.azurecontainerapps.io`
 
-Ingress: Öffentlich
+#### ✅ Azure Container Instances (ACI)
 
-URL:
-https://onnx-aca-final.westeurope.azurecontainerapps.io
+- **Ressourcengruppe:** `mdm-aci`
+- **DNS:** `onnx144`
+- **Protokoll/Port:** TCP / 5000
+- **URL:**  
+  `http://onnx144.e6czc3a5fnb7aef0.southindia.azurecontainer.io:5000`
 
-✅ Azure Container Instances (ACI)
-Ressourcengruppe: mdm-aci
+---
 
-DNS: onnx144
+## ✅ Projektziele erreicht
 
-Protokoll/Port: TCP / 5000
+- [x] Eigene Web-Applikation in Docker-Umgebung umgesetzt
+- [x] ML-App lokal getestet und erfolgreich deployed
+- [x] Cloud-Deployments über Azure Web App, ACA und ACI
+- [x] Dokumentation vollständig
 
-URL:
-http://onnx144.e6czc3a5fnb7aef0.southindia.azurecontainer.io:5000
+---
 
-✅ Projektziele erreicht
- Eigene Web-Applikation in Docker-Umgebung umgesetzt
-
- ML-App lokal getestet und erfolgreich deployed
-
- Cloud-Deployments über Azure Web App, ACA und ACI
-
- Dokumentation vollständig
+📸 **Nächster Schritt:** Screenshots zur Checkliste hinzufügen?  
+Lass mich wissen, falls du Hilfe brauchst!
