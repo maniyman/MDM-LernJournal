@@ -128,12 +128,11 @@ docker run --name onnx-image-classification -p 9000:5000 -d onnx-image-classific
 
 ---
 
-## ✅ Projektziele erreicht
+## Reflexion
 
-- [x] Eigene Web-Applikation in Docker-Umgebung umgesetzt
-- [x] ML-App lokal getestet und erfolgreich deployed
-- [x] Cloud-Deployments über Azure Web App, ACA und ACI
-- [x] Dokumentation vollständig
+Durch das Containerprojekt konnte ich praxisnah lernen, wie man Web- und Datenbankdienste mit Docker Compose effizient kombiniert. Besonders spannend war der Einsatz von Volumes und die Konfiguration von Umgebungsvariablen für eine funktionierende Drupal-MariaDB-Integration. Das Deployment der ML-App in Azure (Web App, ACA, ACI) hat mir einen wertvollen Einblick in moderne Cloud-Dienste gegeben. Insgesamt hat mir das Projekt geholfen, mein Verständnis für Containerisierung und Cloud-Deployment deutlich zu vertiefen.
+
+
 
 ---
 
