@@ -5,7 +5,7 @@
 | Kategorie                  | Inhalt                                                                 |
 |----------------------------|------------------------------------------------------------------------|
 | **Variante**               | Vorhandenes Modell + Eigener Datensatz                                |
-| **Datensatz (selbstgewählt)** | Format: Bilddaten (.jpg, .png)<br>Beschreibung: Bilder von Automarken (BMW, Audi, Mercedes, etc.), ca. 5000 Bilder pro Marke |
+| **Datensatz (selbstgewählt)** | Format: Bilddaten (.jpg, .png)<br>Beschreibung: Bilder von Automarken (BMW, Audi, Mercedes, etc.), ca. 100 Bilder pro Marke |
 | **Datensatz URL**          | Nicht öffentlich – eigene Sammlung und Quellen wie Google/Bing Images |
 | **Modell URL**             | Nicht öffentlich – lokal trainiertes TensorFlow SavedModel            |
 | **ML-Algorithmus**         | Convolutional Neural Network (CNN) mit TensorFlow                     |
