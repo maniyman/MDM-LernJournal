@@ -6,7 +6,7 @@
 |-------|-----------------|
 | Review von (ZHAW-Kürzel) | djeladri |
 | Review durch (ZHAW-Kürzel) | maniyman |
-| Datum Review, von/bis | 25.03.2025|
+| Datum Review, von/bis | 25.03.2025, 16:15-17:00|
 
 ## Review
 
