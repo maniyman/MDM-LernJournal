@@ -84,7 +84,3 @@ Diese App sagt Wechselkurse des Schweizer Franken (CHF) zu 11 Zielwährungen vor
 
 ---
 
-## 🙌 Autor
-
-- [Dein Name hier]
-- Modul MDM, FS2025
