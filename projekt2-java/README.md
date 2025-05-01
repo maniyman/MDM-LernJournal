@@ -10,7 +10,7 @@
 | **Modell URL**             | Nicht öffentlich – lokal trainiertes TensorFlow SavedModel            |
 | **ML-Algorithmus**         | Convolutional Neural Network (CNN) mit TensorFlow                     |
 | **Repo URL**               | [https://carrecognizer-fkh5cscmdvf7hcex.southindia-01.azurewebsites.net](https://carrecognizer-fkh5cscmdvf7hcex.southindia-01.azurewebsites.net) |
-
+| **Repo URL**               | [[https://carrecognizer-fkh5cscmdvf7hcex.southindia-01.azurewebsites.net](https://carrecognizer-fkh5cscmdvf7hcex.southindia-01.azurewebsites.net)](https://github.com/maniyman/CarRecognizerDJL) |
 ---
 
 ## 📁 Daten
