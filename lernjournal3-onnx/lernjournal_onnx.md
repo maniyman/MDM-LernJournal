@@ -19,13 +19,15 @@ Ich habe das Modell **EfficientNet-Lite4-11-INT8** aus dem ONNX Model Zoo ausgew
 - **Relu**: Führt eine Aktivierungsfunktion aus, die negative Werte auf Null setzt und somit Nichtlinearität einführt.
 - **Add**: Verbindet Feature-Maps, oft bei Shortcut-Verbindungen wie bei ResNet-Architekturen.
 
-📸 *Screenshot des Netron-Graphen mit sichtbaren Operatoren eingefügt.*
+<img src="images/Neutron.jpg" alt="Neutron" style="max-width: 100%; height: auto;">
 
 ---
 
 ## 🛠️ Dokumentation onnx-image-classification
 
 Ich habe das bestehende Projekt `onnx-image-classification` geforkt und das Modell auf **EfficientNet-Lite4-11-INT8** gewechselt.
+
+<img src="images/Fork ONNX Moser.jpg" alt="Fork ONNX Moser" style="max-width: 100%; height: auto;">
 
 Anschließend habe ich drei verschiedene Bilder mit dem neuen Modell getestet.  
 Die Inferenz war schnell und die Resultate stabil.
@@ -37,11 +39,18 @@ Die Inferenz war schnell und die Resultate stabil.
 | EfficientNet-Lite4 | dome | 0.00104 |
 | EfficientNet-Lite4-11-int8 | dome | 0.00170 |
 
+<img src="images/Resultate kompakt Model.jpg" alt="Resultate kompakt Model" style="max-width: 100%; height: auto;">
+<img src="images/Resultate Normal Model.jpg" alt="Resultate Normal Model" style="max-width: 100%; height: auto;">
+
 **Erkenntnis:**  
 Das quantisierte **EfficientNet-Lite4-11-int8** Modell zeigte bessere oder stabilere Resultate und schnellere Inferenzzeiten. Für produktive Systeme kann ein INT8-Modell trotz kleiner Genauigkeitsverluste enorme Vorteile bieten.
 
-📸 *Screenshots von Bildklassifikationen und Resultaten eingefügt.*  
-📸 *Screenshot vom erfolgreichen Push auf GitHub eingefügt.*
+<img src="images/Terminal ausgabe mit Modell kompakt.jpg" alt="Terminal ausgabe mit Modell kompakt" style="max-width: 100%; height: auto;">
+
+---
+
+# 🏁 Fertig!
+
 
 ---
 
