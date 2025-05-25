@@ -4,7 +4,6 @@ Bitte Anzahl Unterkapitel entsprechend der Gruppengrösse anpassen. Der eigene S
 
 ## Screencast 1
 
-|-------|-----------------|
 Review durch (ZHAW-Kürzel): maniyman
 
 Review von (ZHAW-Kürzel): ravinsen
@@ -18,7 +17,6 @@ Die Inhalte werden sehr anschaulich und nachvollziehbar präsentiert. Besonders 
 
 ## Screencast 2
 
-|-------|-----------------|
 Review durch (ZHAW-Kürzel): maniyman
 
 Review von (ZHAW-Kürzel): stusab01
@@ -31,7 +29,6 @@ Die Inhalte sind nachvollziehbar und sauber erklärt. Die Live-Demonstration der
 
 ## Screencast 3
 
-|-------|-----------------|
 Review durch (ZHAW-Kürzel): maniyman
 
 Review von (ZHAW-Kürzel): ZHAW-rueegmau
@@ -44,7 +41,6 @@ Die technischen Inhalte werden grundsätzlich nachvollziehbar dargestellt. Die V
 
 ## Screencast 4
 
-|-------|-----------------|
 Review durch (ZHAW-Kürzel): maniyman
 
 Review von (ZHAW-Kürzel): ZHAW _Alvarchr 2
