@@ -9,7 +9,7 @@
 | Datenherkunft  | HTML, historische Wechselkurse von fxtop.com                                   |
 | Datenherkunft URL | https://fxtop.com/en/historical-exchange-rates.php                           |
 | ML-Algorithmus | ARIMA (Autoregressive Integrated Moving Average)                               |
-| Repo URL       | [hier deine GitHub-Repo-URL einfügen]                                           |
+| Repo URL       | https://github.com/maniyman/forex-predict-app                                        |
 | Azure URL      | https://forex-webapp-chf-erfnefgae7gadafd.canadacentral-01.azurewebsites.net    |
 
 ---
